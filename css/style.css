@@ -1,0 +1,116 @@
+
+/* this is a css reset that makes sure the browser won't add any unexpected margins or padding to your page */
+body, html{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+  background-color: olive;
+}
+
+
+h1{
+text-align: center;
+color: saddlebrown;
+ font-family: "Changa One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 400px;
+  line-height: 290px;
+ 
+}
+
+h2 {
+text-align: center;
+color: rgb(95, 29, 29);
+font-size: 75px;
+line-height: 150px;
+text-decoration: underline;
+}
+
+#disImage #birdEx{
+width: 100%;
+max-width: 400px;
+object-fit: cover;
+vertical-align: middle;
+background-color: bisque;
+border-radius: 25px;
+
+}
+
+.disWrapper{
+padding:0 10px ;
+display:flex ;
+flex-wrap: wrap;
+align-items:center ;
+justify-content: space-around;
+gap: 2px;
+
+}
+
+.disText{
+flex: 1;
+font-size: 30px;
+text-align:center;
+max-width: 300px;
+margin-right: 500px;
+}
+
+
+
+.listWrapper{
+/* margin-left: 260px; */
+line-height: 50px;
+width: 100%;
+display: flex;
+justify-content: space-around;
+}
+
+#list{
+font-size: 25px;
+background-color: rgb(223, 169, 104);
+border-radius: 15px;
+text-align: center;
+padding: 10px;
+
+}
+
+
+.instrWrapper{
+
+font-size: 25px;
+background-color: rgb(190, 143, 86);
+border-radius: 15px;
+text-align: center;
+padding: 10px;
+line-height: 60px;
+margin: 100px;
+}
+
+
+
+iframe{
+  width: 1000px;
+  height: 1100px;
+  line-height: 1500px;
+ align-self: center;
+ margin: auto;
+ display: flex;
+justify-content: center;
+}
+
+
+@media (max-width: 768px) {
+  /* your tablet styles here! */
+}
+@media (max-width: 425px) {
+  /* your mobile styles here! */
+  iframe{
+    display: none;
+  }
+}
+
+
+
+
+
+
